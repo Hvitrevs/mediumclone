@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { FormBuilder, Validators } from "@angular/forms";
 
 @Component({
   selector: 'mc-register',
@@ -7,5 +8,10 @@ import { Component } from "@angular/core";
 
 })
 export class RegisterComponent {
-
+  form = this.fb.nonNullable.group({
+    username: ['', Validators.required],
+    email: ['', Validators.required],
+    password: ['', Validators.required],
+  })
+  constructor(private fb: FormBuilder){}
 }
