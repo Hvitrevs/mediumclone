@@ -2,7 +2,7 @@
 
 ## Usage
 
-Angular, NgRx
+Angular, NgRx, tailwind
 
 ## Development server
 
