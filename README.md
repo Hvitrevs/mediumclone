@@ -1,4 +1,4 @@
-# Mediumclone
+# Blog app with Angular
 
 ## Usage
 
