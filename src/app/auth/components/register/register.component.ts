@@ -18,5 +18,9 @@ export class RegisterComponent {
   
   onSubmit(){
     console.log('form', this.form.getRawValue())
+    this.registerService(this.form.getRawValue()).subscribe()
   }
 }
+
+
+
