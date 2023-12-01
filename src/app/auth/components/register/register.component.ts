@@ -30,6 +30,6 @@ export class RegisterComponent {
   }
 }
 
-//1:01:04 https://www.youtube.com/watch?v=vcfZ0EQpYTA
+
 
 
